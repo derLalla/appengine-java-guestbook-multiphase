@@ -11,10 +11,10 @@
 	<servlet>
 		<servlet-name>RestletServlet</servlet-name>
 		<servlet-class>org.restlet.ext.servlet.ServerServlet</servlet-class>
-		<init-param>
+		<!-- init-param>
 			<param-name>org.restlet.application</param-name>
 			<param-value>firstSteps.FirstStepsApplication</param-value>
-		</init-param>
+		</init-param-->
 	</servlet>
 
 	<servlet-mapping>

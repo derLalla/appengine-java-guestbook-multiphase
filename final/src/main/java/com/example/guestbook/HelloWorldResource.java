@@ -13,7 +13,7 @@ public class HelloWorldResource extends ServerResource {
 	public String represent() {
 		String example = "";
 		example += "<?xml version=\"1.0\"?>\n";
-		example += "<greeting xmlns=\"com.example.guestbook\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://localhost:8080/greeting.xsd\">\n";
+		example += "<greeting xmlns=\"com.example.guestbook\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://localhost:8080/guestbook.xsd\">\n";
 
 		example += "<id>5</id>\n";
 		example += "<author>John Doe</author>\n";
