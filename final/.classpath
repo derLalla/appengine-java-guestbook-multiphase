@@ -9,7 +9,7 @@
 	<classpathentry kind="var" path="M2_REPO/com/googlecode/objectify/objectify/5.1.5/objectify-5.1.5.jar"/>
 	<classpathentry kind="var" path="M2_REPO/com/google/appengine/appengine-testing/1.9.48/appengine-testing-1.9.48.jar"/>
 	<classpathentry kind="var" path="M2_REPO/com/google/appengine/appengine-api-stubs/1.9.48/appengine-api-stubs-1.9.48.jar"/>
-	<classpathentry kind="lib" path="src/main/webapp/lib/org.restlet.ext.servlet.jar"/>
-	<classpathentry kind="lib" path="src/main/webapp/lib/org.restlet.jar"/>
+	<classpathentry exported="true" kind="lib" path="src/main/webapp/lib/org.restlet.ext.servlet.jar"/>
+	<classpathentry exported="true" kind="lib" path="src/main/webapp/lib/org.restlet.jar"/>
 	<classpathentry kind="output" path="target/guestbook-1.0-SNAPSHOT/WEB-INF/classes"/>
 </classpath>
